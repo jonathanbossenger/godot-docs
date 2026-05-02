@@ -165,6 +165,14 @@ Transition to the same position in the destination clip. This is useful when bot
 
 Transition to the start of the destination clip.
 
+.. _class_AudioStreamInteractive_constant_TRANSITION_TO_TIME_PREVIOUS_POSITION:
+
+.. rst-class:: classref-enumeration-constant
+
+:ref:`TransitionToTime<enum_AudioStreamInteractive_TransitionToTime>` **TRANSITION_TO_TIME_PREVIOUS_POSITION** = ``2``
+
+Transition to the last played position in the destination clip, if there was a previous transition from that clip. Otherwise, plays from the start of the destination clip.
+
 .. rst-class:: classref-item-separator
 
 ----

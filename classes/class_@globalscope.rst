@@ -3756,7 +3756,7 @@ If a property is :ref:`Dictionary<class_Dictionary>`, hints the editor how to sh
 
     // Array of elemType.
     hintString = $"{elemType:D}:";
-    hintString = $"{elemType:}/{elemHint:D}:{elemHintString}";
+    hintString = $"{elemType:D}/{elemHint:D}:{elemHintString}";
     // Two-dimensional array of elemType (array of arrays of elemType).
     hintString = $"{Variant.Type.Array:D}:{elemType:D}:";
     hintString = $"{Variant.Type.Array:D}:{elemType:D}/{elemHint:D}:{elemHintString}";
