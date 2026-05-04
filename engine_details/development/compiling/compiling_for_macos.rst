@@ -96,7 +96,7 @@ You can install the required dependencies by running
 ``python misc/scripts/install_accesskit.py``
 in the Godot source repository. After running this script, compile Godot as usual.
 
-.. note:: You can optionally build the godot-angle-static libraries yourself with
+.. note:: You can optionally build the godot-accesskit-static libraries yourself with
           the following steps:
 
           1. Clone the `godot-accesskit-c-static <https://github.com/godotengine/godot-accesskit-c-static/>`_
